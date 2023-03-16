@@ -9,7 +9,7 @@ Download/Clone this project
 Build using Maven in spring tool suite or any other IDE
 Run Spring boot app
 The application will launch in local host with port number 8081
-Open post man and create new POST request "http://localhost:8080/api/v1/QRCodeGenerate/getQRCodeBase64" with the below body payload
+Open post man and create new POST request "http://localhost:8081/api/v1/QRCodeGenerate/getQRCodeBase64" with the below body payload
 {
 	"payeeAddress": "xxx@okaxis",
 	"payeeName": "xxx-name",
